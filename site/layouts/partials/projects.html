@@ -1,0 +1,23 @@
+<div class="container projects">
+    <div class="row">
+        <div class="col">
+            <h2 class="projects__title">Projects</h2>
+        </div>
+    </div>
+    <div class="row projects__projects">
+        {{ range $index, $element := where .Data.Pages "Section" "projects" }}
+        <div class="col-12 col-md-4 mb-4">
+            <div class="projects__project">
+                <h3 class="projects__project-title">{{ .Title }}</h3>
+                <p class="projects__project-description">
+                    {{ .Description }}
+                </p>
+                <ul class="projects__project-links">
+                    <li><a href="{{ .Params.Source }}">Source</a></li>
+                    <li><a href="{{ .Params.Documentation }}">Documentation</a></li>
+                </ul>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>

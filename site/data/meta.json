@@ -1,0 +1,78 @@
+{
+  "features": [
+    {
+      "title": "Lightning fast",
+      "description": "Times faster than\nSelenium Grid",
+      "icon": "lightning"
+    },
+    {
+      "title": "Easy installation",
+      "description": "Open binary does all\nthe job in minutes",
+      "icon": "installation"
+    },
+    {
+      "title": "Modern UI",
+      "description": "Shows running browser\nscreens and logs",
+      "icon": "ui"
+    },
+    {
+      "title": "Cluster ready",
+      "description": "Works like a charm\nin big clusters",
+      "icon": "cluster"
+    }
+  ],
+  "social": [
+    {
+      "name": "Github",
+      "url": "https://github.com"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.org"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://youtube.com"
+    },
+    {
+      "name": "Mail us",
+      "url": "mailto:support@aerokube.com"
+    }
+  ],
+  "verticals": [
+    {
+      "name": "Aerokube",
+      "url": "https://github.com"
+    },
+    {
+      "name": "Browsers",
+      "url": "https://telegram.org"
+    },
+    {
+      "name": "Moon",
+      "url": "https://twitter.com"
+    },
+    {
+      "name": "Selenoid",
+      "url": "https://youtube.com"
+    }
+  ],
+  "videos": [
+    {
+      "image": "images/videos/video1.png",
+      "url": "https://youtube.com"
+    },
+    {
+      "image": "images/videos/video2.png",
+      "url": "https://youtube.com"
+    },
+    {
+      "image": "images/videos/video3.png",
+      "url": "https://youtube.com"
+    }
+  ]
+}
