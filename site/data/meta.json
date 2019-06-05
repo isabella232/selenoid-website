@@ -7,12 +7,12 @@
     },
     {
       "title": "Easy installation",
-      "description": "Open binary does all\nthe job in minutes",
+      "description": "One binary does all\nthe job in minutes",
       "icon": "installation"
     },
     {
       "title": "Modern UI",
-      "description": "Shows running browser\nscreens and logs",
+      "description": "Shows running browser\nscreen and logs",
       "icon": "ui"
     },
     {
@@ -24,19 +24,19 @@
   "social": [
     {
       "name": "Github",
-      "url": "https://github.com"
+      "url": "https://github.com/aerokube"
     },
     {
       "name": "Telegram",
-      "url": "https://telegram.org"
+      "url": "https://t.me/aerokube"
     },
     {
       "name": "Twitter",
-      "url": "https://twitter.com"
+      "url": "https://twitter.com/aerokube"
     },
     {
       "name": "Youtube",
-      "url": "https://youtube.com"
+      "url": "https://www.youtube.com/channel/UC9HvE3FNfTvftzpvXi9c69g"
     },
     {
       "name": "Mail us",
@@ -46,19 +46,63 @@
   "verticals": [
     {
       "name": "Aerokube",
-      "url": "https://github.com"
+      "url": "https://aerokube.com/"
     },
     {
       "name": "Browsers",
-      "url": "https://telegram.org"
+      "url": "https://browsers.aerokube.com/"
     },
     {
       "name": "Moon",
-      "url": "https://twitter.com"
+      "url": "https://moon.aerokube.com/"
     },
     {
       "name": "Selenoid",
-      "url": "https://youtube.com"
+      "url": "https://selenoid.aerokube.com/"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Selenoid",
+      "description": "A lightning fast Selenium protocol implementation running browsers in Docker containers",
+      "source": "https://github.com/aerokube/selenoid",
+      "documentation": "https://aerokube.com/selenoid/latest/"
+    },
+    {
+      "title": "Selenoid UI",
+      "description": "Cool graphical user interface for Selenoid mainly needed for debugging your Selenium tests",
+      "source": "https://github.com/aerokube/selenoid-ui",
+      "documentation": "https://aerokube.com/selenoid-ui/latest/"
+    },
+    {
+      "title": "CM",
+      "description": "A fully automated installation tool for Selenoid and Selenoid UI doing all the work for you",
+      "source": "https://github.com/aerokube/cm",
+      "documentation": "https://aerokube.com/cm/latest/"
+    },
+    {
+      "title": "Ggr",
+      "description": "A completely stateless and lightweight load balancer used to create big Selenium clusters",
+      "source": "https://github.com/aerokube/ggr",
+      "documentation": "https://aerokube.com/ggr/latest/"
+    },
+    {
+      "title": "Ggr UI",
+      "description": "An additional component used to show all sessions running in Selenium cluster in the same Selenoid UI",
+      "source": "https://github.com/aerokube/ggr-ui",
+      "documentation": "https://aerokube.com/ggr-ui/latest/"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Selenium: done in 60 seconds",
+      "description": "In this article we demonstrate how to obtain a running Selenoid instance in 60 seconds",
+      "url": "https://medium.com/@aandryashin/selenium-done-in-60-seconds-176796f8bdc7"
+    },
+    {
+      "title": "Selenium on Windows: Docker Revolution",
+      "description": "This article solves the problem of the century - how to pack Windows-only browsers to Linux Docker containers",
+      "url": "https://medium.com/@aandryashin/selenium-on-windows-docker-revolution-f5a7eab205ad"
     }
   ],
   "videos": [
