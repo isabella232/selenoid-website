@@ -1,7 +1,7 @@
 <div class="container articles">
     <div class="row">
         <div class="col">
-            <h2>Articles</h2>
+            <h2>Articles and Videos</h2>
         </div>
     </div>
     <div class="row articles__content">
@@ -10,12 +10,12 @@
         </div>
         <div class="col-12 col-md-4">
             <div class="row articles__articles">
-                {{ range $index, $element := where .Data.Pages "Section" "articles" }}
+                {{ range .Site.Data.meta.articles }}
                 <div class="col-12 mb-4">
                     <div class="articles__article">
-                        <a href="{{ .Permalink }}"><h3 class="articles__article-title">{{ .Title }}</h3></a>
+                        <a href="{{ .url }}"><h3 class="articles__article-title">{{ .title }}</h3></a>
                         <p class="articles__article-description">
-                            {{ .Description }}
+                            {{ .description }}
                         </p>
                     </div>
                 </div>
