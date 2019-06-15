@@ -23,6 +23,10 @@
   ],
   "social": [
     {
+      "name": "Docs",
+      "url": "https://aerokube.com/selenoid/latest"
+    },
+    {
       "name": "Github",
       "url": "https://github.com/aerokube"
     },
