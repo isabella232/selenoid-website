@@ -13,7 +13,7 @@ pipeline:
     when:
       event: [push, tag, pull_request]
 
-  website_latest_image:
+  selenoid_website_latest_image:
     image: plugins/docker
     registry: registry.aerokube.com
     repo: registry.aerokube.com/selenoid/website
@@ -23,7 +23,7 @@ pipeline:
       branch: master
       event: push
 
-  website_release_image:
+  selenoid_website_release_image:
     image: plugins/docker
     registry: registry.aerokube.com
     repo: registry.aerokube.com/selenoid/website
