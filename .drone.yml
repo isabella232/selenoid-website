@@ -31,3 +31,15 @@ pipeline:
     tags: [ '${DRONE_TAG}', 'latest-release' ]
     when:
       event: tag
+
+  selenoid_website_push:
+    image: golang:1.12.5
+    commands:
+      - export CLONE_DIR="/go/website"
+      - git clone https://${GITHUB_TOKEN}@github.com/aerokube/selenoid.git ${CLONE_DIR}
+      - cd ${CLONE_DIR} && git config user.name ${DRONE_COMMIT_AUTHOR} && git config user.email ${DRONE_COMMIT_AUTHOR_EMAIL}
+      - cd ${CLONE_DIR} && git git checkout gh-pages && cp -R dist/* $CLONE_DIR
+      - cd ${CLONE_DIR} && git add --all && git commit -am "Documentation updated by ${DRONE_COMMIT_AUTHOR}" && git push origin HEAD:gh-pages
+    secrets: [ github_token ]
+    when:
+      event: [push, tag]
