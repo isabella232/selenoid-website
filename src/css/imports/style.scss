@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    background-image: url('/images/background.svg');
+    background-image: url("#{$prefix}/images/background.svg");
     background-size: 2228px 659px;
     background-position: top center;
     background-repeat: no-repeat;
