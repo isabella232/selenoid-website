@@ -38,4 +38,4 @@ pipeline:
       - ./deploy.sh
     secrets: [ github_token ]
     when:
-      event: [push, tag]
+      event: [tag]
