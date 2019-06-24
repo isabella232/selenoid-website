@@ -35,7 +35,7 @@ pipeline:
   selenoid_website_push:
     image: golang:1.12.5
     commands:
-      - ./ci/deploy.sh
+      - ./deploy.sh
     secrets: [ github_token ]
     when:
       event: [push, tag]
